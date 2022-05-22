@@ -9,6 +9,7 @@ proxies:
   - {name: 🇨🇦 加拿大-1.35MB/s(Youtube:不良林), server: ca1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: ca1.trojan.tel, skip-cert-verify: true}
   - {name: 🇯🇵 日本-1.50MB/s(Youtube:不良林), server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp2.trojan.tel, skip-cert-verify: true}
   - {name: 🇭🇰 香港-422.7KB/s(Youtube:不良林), server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 426hk.fans8.xyz}}
+  - {name: 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林), server: 46.17.42.135, port: 44368, type: vmess, uuid: 775a4a8c-36cb-499b-80ad-3dcaae1c2b70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,6 +20,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +30,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -38,6 +41,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -53,6 +57,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -62,6 +67,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -72,6 +78,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -91,6 +98,7 @@ proxy-groups:
       - 🇨🇦 加拿大-1.35MB/s(Youtube:不良林)
       - 🇯🇵 日本-1.50MB/s(Youtube:不良林)
       - 🇭🇰 香港-422.7KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.29MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
