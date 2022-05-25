@@ -5,27 +5,31 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本-824.1KB/s(Youtube:不良林), server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true}
+  - {name: 🇨🇳 中国-236.1KB/s(Youtube:不良林), server: 523hk1.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 523hk1.fans8.xyz}}
+  - {name: 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林), server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -36,20 +40,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -65,7 +72,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本-824.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-236.1KB/s(Youtube:不良林)
+      - 🇦🇺 澳大利亚-783.3KB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
