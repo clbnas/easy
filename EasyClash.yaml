@@ -5,63 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国-322.1KB/s(Youtube:不良林), server: 43.200.6.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国-369.7KB/s(Youtube:不良林), server: 45.61.174.36, port: 31325, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林), server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: 🇸🇬 新加坡-2.78MB/s(Youtube:不良林), server: 129.226.217.168, port: 15322, type: vmess, uuid: 7676a524-3603-473e-de41-2bc6273d52fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林), server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: 🇸🇬 新加坡-2.65MB/s(Youtube:不良林), server: 129.226.215.218, port: 39758, type: vmess, uuid: e1afb696-1e40-4a45-e6de-792c1bd94038, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 日本-5.50MB/s(Youtube:不良林), server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true}
+  - {name: 🇨🇳 中国-711.6KB/s(Youtube:不良林), server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f}
+  - {name: 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林), server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
+  - {name: 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林), server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
   - {name: 🇸🇬 新加坡-675.7KB/s(Youtube:不良林), server: 129.226.215.7, port: 28833, type: vmess, uuid: e20eea47-f0f1-49b8-da1b-969693463008, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-487.2KB/s(Youtube:不良林), server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-491.9KB/s(Youtube:不良林), server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡-2.54MB/s(Youtube:不良林), server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林), server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
-  - {name: 🇺🇸 美国-3.99MB/s(Youtube:不良林), server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-5.19MB/s(Youtube:不良林), server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -72,47 +72,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,16 +128,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-322.1KB/s(Youtube:不良林)
-      - 🇺🇸 美国-369.7KB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-2.72MB/s(Youtube:不良林)
-      - 🇸🇬 新加坡-2.78MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-3.56MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-2.65MB/s(Youtube:不良林)
+      - 🇯🇵 日本-5.50MB/s(Youtube:不良林)
+      - 🇨🇳 中国-711.6KB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-3.25MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-913.5KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-675.7KB/s(Youtube:不良林)
-      - 🇺🇸 美国-487.2KB/s(Youtube:不良林)
+      - 🇺🇸 美国-491.9KB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.54MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-427.3KB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.99MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.19MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
