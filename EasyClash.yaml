@@ -8,7 +8,7 @@ proxies:
   - {name: 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林), server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true}
   - {name: 🇭🇰 香港-5.80MB/s(Youtube:不良林), server: 20.187.79.61, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
   - {name: 🇭🇰 香港-15.68MB/s(Youtube:不良林), server: 20.187.79.61, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-4.45MB/s(Youtube:不良林), server: 20.187.79.61, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
+  - {name: 🇭🇰 香港-6.77MB/s(Youtube:不良林), server: 20.187.79.61, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
   - {name: 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林), server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
@@ -19,7 +19,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
@@ -29,7 +29,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
@@ -40,7 +40,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
@@ -48,7 +48,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -58,7 +58,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
@@ -68,7 +68,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
@@ -79,7 +79,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
@@ -99,7 +99,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚-1.70MB/s(Youtube:不良林)
       - 🇭🇰 香港-5.80MB/s(Youtube:不良林)
       - 🇭🇰 香港-15.68MB/s(Youtube:不良林)
-      - 🇭🇰 香港-4.45MB/s(Youtube:不良林)
+      - 🇭🇰 香港-6.77MB/s(Youtube:不良林)
       - 🇷🇺 俄罗斯联邦-481.8KB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
