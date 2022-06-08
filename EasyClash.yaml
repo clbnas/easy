@@ -5,43 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 伊朗-246.7KB/s(Youtube:不良林), server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 未知国家-910.4KB/s(Youtube:不良林), server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大-405.7KB/s(Youtube:不良林), server: 134.195.196.64, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大-467.9KB/s(Youtube:不良林), server: 134.195.196.64, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大-2.17MB/s(Youtube:不良林), server: 134.195.196.64, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 中国-1.88MB/s(Youtube:不良林), server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -52,32 +36,20 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,11 +65,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 伊朗-246.7KB/s(Youtube:不良林)
-      - 未知国家-910.4KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-405.7KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-467.9KB/s(Youtube:不良林)
-      - 🇨🇦 加拿大-2.17MB/s(Youtube:不良林)
+      - 🇨🇳 中国-1.88MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
