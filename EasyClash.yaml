@@ -5,14 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国-912.2KB/s(Youtube:不良林), server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国-1.94MB/s(Youtube:不良林), server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国-937.0KB/s(Youtube:不良林), server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇳 中国-707.9KB/s(Youtube:不良林), server: aiajp1.game.www.klrxyru.cn, port: 1460, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com}
-  - {name: 🇺🇸 美国-676.9KB/s(Youtube:不良林), server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇳 中国-491.6KB/s(Youtube:不良林), server: relayjp1.vip.www.klrxyru.cn, port: 1451, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com}
+  - {name: 🇺🇸 美国-2.46MB/s(Youtube:不良林), server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国-1.04MB/s(Youtube:不良林), server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国-1.51MB/s(Youtube:不良林), server: 38.114.114.19, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国-1.39MB/s(Youtube:不良林), server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇺🇸 美国-1.27MB/s(Youtube:不良林), server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国-1.20MB/s(Youtube:不良林), server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}}
+  - {name: 🇺🇸 美国-1.99MB/s(Youtube:不良林), server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 未知国家-1.27MB/s(Youtube:不良林), server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}}
   - {name: 🇺🇸 美国-299.9KB/s(Youtube:不良林), server: su10.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su10.chaoxn.top}}
   - {name: 🇺🇸 美国-1.26MB/s(Youtube:不良林), server: www.nubility.ml, port: 443, type: trojan, password: 9a2c5cc6ef, sni: www.nubility.ml, skip-cert-verify: true}
 proxy-groups:
@@ -21,14 +21,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
@@ -36,14 +36,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
@@ -52,14 +52,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
@@ -72,14 +72,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
   - name: 📲 电报信息
@@ -87,14 +87,14 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
@@ -103,14 +103,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
   - name: 🎯 全球直连
@@ -128,14 +128,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-912.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.94MB/s(Youtube:不良林)
-      - 🇺🇸 美国-937.0KB/s(Youtube:不良林)
-      - 🇨🇳 中国-707.9KB/s(Youtube:不良林)
-      - 🇺🇸 美国-676.9KB/s(Youtube:不良林)
+      - 🇨🇳 中国-491.6KB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.46MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.04MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.39MB/s(Youtube:不良林)
       - 🇺🇸 美国-1.27MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.20MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.27MB/s(Youtube:不良林) 2
+      - 🇺🇸 美国-1.99MB/s(Youtube:不良林)
+      - 未知国家-1.27MB/s(Youtube:不良林)
       - 🇺🇸 美国-299.9KB/s(Youtube:不良林)
       - 🇺🇸 美国-1.26MB/s(Youtube:不良林)
 rules:
