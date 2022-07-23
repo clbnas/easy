@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 英国-2.35MB/s(Youtube:不良林), server: 185.167.77.221, port: 10000, type: vmess, uuid: 3d0457e6-0c17-5cc8-92cf-b98e6827429e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bff161dd772d3b, ws-headers: {Host: 185.167.77.221}}
-  - {name: 🇺🇸 美国-3.49MB/s(Youtube:不良林), server: 107.173.166.160, port: 11188, type: vmess, uuid: d644ebef-f0e6-468f-d122-cea661ed9d09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: 107.173.166.160}}
-  - {name: 🇺🇸 美国-367.1KB/s(Youtube:不良林), server: vr.eseabean.xyz, port: 12860, type: vmess, uuid: f0c28644-eba5-4de7-e9ed-abcf58a657f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /media, ws-headers: {Host: vr.eseabean.xyz}}
-  - {name: 🇨🇳 中国-2.26MB/s(Youtube:不良林), server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡-831.1KB/s(Youtube:不良林), server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true}
+  - {name: 🇨🇳 中国-315.8KB/s(Youtube:不良林), server: best03.downloadmovie.cn, port: 65088, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best03.downloadmovie.cn}}
+  - {name: 🇨🇳 中国-476.3KB/s(Youtube:不良林), server: best01.downloadmovie.cn, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best01.downloadmovie.cn}}
+  - {name: 🇺🇸 美国-4.99MB/s(Youtube:不良林), server: 97.64.122.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
   - {name: 🇨🇳 中国-327.5KB/s(Youtube:不良林), server: best03.downloadmovie.cn, port: 65090, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best03.downloadmovie.cn}}
   - {name: 🇺🇸 美国-3.43MB/s(Youtube:不良林), server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡-2.19MB/s(Youtube:不良林), server: 47.241.220.160, port: 28475, type: vmess, uuid: 5b00ad6f-bc33-4946-8a32-b7e59620e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
@@ -21,10 +21,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
@@ -36,10 +36,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
@@ -52,10 +52,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
@@ -72,10 +72,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
@@ -87,10 +87,10 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
@@ -103,10 +103,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
@@ -128,10 +128,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国-2.35MB/s(Youtube:不良林)
-      - 🇺🇸 美国-3.49MB/s(Youtube:不良林)
-      - 🇺🇸 美国-367.1KB/s(Youtube:不良林)
-      - 🇨🇳 中国-2.26MB/s(Youtube:不良林)
+      - 🇸🇬 新加坡-831.1KB/s(Youtube:不良林)
+      - 🇨🇳 中国-315.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-476.3KB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.99MB/s(Youtube:不良林)
       - 🇨🇳 中国-327.5KB/s(Youtube:不良林)
       - 🇺🇸 美国-3.43MB/s(Youtube:不良林)
       - 🇸🇬 新加坡-2.19MB/s(Youtube:不良林)
