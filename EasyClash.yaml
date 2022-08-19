@@ -8,6 +8,7 @@ proxies:
   - {name: 🇨🇳 中国-207.4KB/s(Youtube:不良林), server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true}
   - {name: 🇨🇳 中国-650.5KB/s(Youtube:不良林), server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true}
   - {name: 🇨🇳 中国-304.8KB/s(Youtube:不良林), server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 中国-1023.7KB/s(Youtube:不良林), server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: 763b2303-0e16-455e-926d-66d909c3e37b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: hk-hkg-it2-svm-v2.node.inforun.work}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -17,6 +18,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,6 +27,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,6 +37,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -47,6 +51,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -55,6 +60,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -64,6 +70,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,6 +89,7 @@ proxy-groups:
       - 🇨🇳 中国-207.4KB/s(Youtube:不良林)
       - 🇨🇳 中国-650.5KB/s(Youtube:不良林)
       - 🇨🇳 中国-304.8KB/s(Youtube:不良林)
+      - 🇨🇳 中国-1023.7KB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
